@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout from SCM') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                         credentialsId: 'github',
                         url: REPO_URL
             }
