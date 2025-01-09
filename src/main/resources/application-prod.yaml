@@ -6,8 +6,7 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone:
-        http://localhost:8081/eureka/
+      defaultZone: http://34.41.170.207:32003/eureka/
     register-with-eureka: false
     fetch-registry: false
   server:
